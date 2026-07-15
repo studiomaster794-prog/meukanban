@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#020617">
+  <title>Offline • Meu Kanban</title>
+  <link rel="icon" href="icons/icon-192x192.png" type="image/png">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+      color: #e2e8f0;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.18), transparent 28rem),
+        radial-gradient(circle at 80% 10%, rgba(168, 85, 247, 0.18), transparent 30rem),
+        #020617;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card {
+      max-width: 22rem;
+      width: 100%;
+      padding: 2rem 1.5rem;
+      border-radius: 1.5rem;
+      border: 1px solid rgba(129, 140, 248, 0.35);
+      background: linear-gradient(160deg, rgba(99, 102, 241, 0.12), rgba(15, 23, 42, 0.7));
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    }
+    img {
+      width: 5.5rem;
+      height: 5.5rem;
+      border-radius: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.35rem;
+      letter-spacing: -0.03em;
+    }
+    p {
+      margin: 0 0 1.25rem;
+      color: #94a3b8;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    button {
+      appearance: none;
+      border: 0;
+      border-radius: 999px;
+      padding: 0.75rem 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      cursor: pointer;
+      background: linear-gradient(135deg, #38bdf8, #6366f1, #a855f7);
+      box-shadow: 0 10px 24px rgba(99, 102, 241, 0.35);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="icons/icon-192x192.png" alt="Meu Kanban">
+    <h1>Você está offline</h1>
+    <p>Não foi possível conectar. Verifique a internet e tente novamente. Seus dados locais continuam no dispositivo.</p>
+    <button type="button" onclick="location.href='./index.html'">Tentar novamente</button>
+  </div>
+</body>
+</html>

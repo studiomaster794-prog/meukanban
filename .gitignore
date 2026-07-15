@@ -1,0 +1,46 @@
+# Prints / capturas de tela (não fazem parte do app)
+image.jpg
+image-2.jpg
+image-tarefas.jpg
+image-tarefas-dolado.jpg
+image-visuBonito.jpg
+image*.jpg
+image*.png
+!icone.png
+!favicon.png
+!icons/**
+
+# Temporários e sistema
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ambiente e secrets (nunca commitar chaves)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Dependências e build (se usar no futuro)
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Ferramentas locais
+.agents/
+.grok/

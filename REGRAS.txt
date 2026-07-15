@@ -1,0 +1,215 @@
+
+Crie um aplicativo completo de gerenciamento de tarefas (To-Do / Task Manager) com aparência profissional, moderna e elegante, semelhante aos aplicativos de produtividade mais conhecidos.
+O aplicativo deve ser desenvolvido com código limpo, organizado, modular e fácil de dar manutenção, evitando duplicação de código e seguindo boas práticas de arquitetura.
+Objetivo
+O sistema deve ajudar o usuário a organizar tarefas pessoais e profissionais de forma simples, rápida e intuitiva.
+O foco principal é produtividade.
+Design
+Desenvolva uma interface extremamente bonita.
+Estilo:
+Glassmorphism moderno
+Material Design + Apple Human Interface
+Bordas arredondadas
+Sombras suaves
+Transparências elegantes
+Pequenos efeitos de blur
+Animações suaves
+Microinterações
+Totalmente responsivo
+Interface otimizada para celular
+Também funcionar perfeitamente em tablets e computadores.
+Utilize uma paleta moderna com:
+Azul
+Roxo
+Branco
+Tons escuros para modo Dark
+Inclua modo Claro e Escuro.
+Dashboard
+A tela inicial deve mostrar:
+Saudação ao usuário
+Data atual
+Horário
+Quantidade de tarefas
+Tarefas concluídas
+Tarefas pendentes
+Percentual de conclusão
+Barra de progresso animada
+Calendário mensal
+Próximos compromissos
+Cadastro de tarefas
+Cada tarefa deverá possuir:
+Título
+Descrição
+Categoria
+Prioridade
+Data
+Hora
+Cor personalizada
+Etiquetas (Tags)
+Local
+Observações
+Arquivos anexos
+Checklist interno
+Tempo estimado
+Tempo gasto
+Status
+Status disponíveis:
+A Fazer
+Em andamento
+Em espera
+Concluída
+Cancelada
+Prioridade
+As tarefas devem possuir níveis:
+Muito Alta
+Alta
+Média
+Baixa
+Sem prioridade
+Cada prioridade deve possuir uma cor diferente.
+Categorias
+Permitir criar categorias personalizadas como:
+Trabalho
+Estudos
+Faculdade
+Casa
+Compras
+Saúde
+Academia
+Financeiro
+Projetos
+Cliente
+Outros
+Organização
+Permitir visualizar tarefas por:
+Hoje
+Amanhã
+Esta semana
+Este mês
+Todas
+Atrasadas
+Favoritas
+Concluídas
+Busca
+Criar uma busca inteligente que permita pesquisar por:
+Nome
+Categoria
+Tag
+Prioridade
+Data
+Status
+Texto da descrição
+Notificações
+O aplicativo deve possuir:
+Lembretes
+Alarmes
+Notificações locais
+Aviso de tarefa atrasada
+Aviso antes do horário
+Sons opcionais
+Calendário
+Criar um calendário interativo mostrando:
+Dias com tarefas
+Cores por prioridade
+Quantidade de tarefas por dia
+Clique em um dia para visualizar todas as tarefas.
+Estatísticas
+Criar gráficos mostrando:
+Tarefas concluídas por semana
+Produtividade
+Tempo gasto
+Categorias mais utilizadas
+Prioridades
+Evolução mensal
+Taxa de conclusão
+Drag and Drop
+Permitir arrastar tarefas entre colunas estilo Kanban:
+A Fazer
+Em andamento
+Em espera
+Concluída
+Com animações suaves.
+Funcionalidades
+Implementar:
+Criar tarefa
+Editar
+Excluir
+Duplicar
+Favoritar
+Compartilhar
+Copiar
+Arquivar
+Restaurar
+Histórico de alterações
+Gamificação
+Adicionar:
+Pontuação
+Sequência de dias produtivos
+Medalhas
+Níveis
+Barra de experiência
+Conquistas
+Configurações
+Permitir:
+Alterar tema
+Alterar idioma
+Backup
+Restaurar backup
+Exportar dados
+Importar dados
+Configurar notificações
+Alterar cores
+Alterar tamanho da fonte
+Banco de Dados
+Utilizar Supabase.
+Criar:
+Autenticação
+Login
+Cadastro
+Recuperação de senha
+Banco normalizado
+Segurança com Row Level Security (RLS)
+Sincronização em tempo real
+Backup automático
+Performance
+O aplicativo deve:
+Ser extremamente rápido
+Carregar instantaneamente
+Ter animações em 60 FPS
+Lazy Loading
+Componentes reutilizáveis
+Código modular
+Estrutura escalável
+Fácil manutenção
+Comentários apenas quando necessários
+Extras
+Adicionar:
+Pesquisa instantânea
+Atalhos de teclado
+Confirmação antes de excluir
+Undo (Desfazer)
+Toasts elegantes
+Skeleton Loading
+Empty States ilustrados
+Ícones modernos
+Transições suaves
+Feedback visual em todas as ações
+Qualidade
+Antes de finalizar:
+Revisar todo o código.
+Remover código duplicado.
+Remover funções não utilizadas.
+Evitar arquivos desnecessários.
+Garantir que não existam erros.
+Garantir responsividade em celulares, tablets e desktops.
+Seguir boas práticas de UI/UX.
+Utilizar componentes reutilizáveis.
+Organizar pastas de forma profissional.
+Gerar código pronto para produção
+
+Você deve agir como um Designer Sênior de Produto, um Desenvolvedor Full Stack Sênior e um Especialista em UX/UI ao mesmo tempo. 
+Não apenas implemente as funcionalidades, mas também proponha melhorias de usabilidade, acessibilidade (WCAG), 
+desempenho, organização do código e recursos inteligentes que tornem o aplicativo mais agradável e eficiente para o usuário final.
+
+Quero visual futurista para esse app: 
+Glassmorphism com iluminação sutil, gradientes elegantes, animações suaves, gráficos modernos e um quadro Kanban muito refinado.
