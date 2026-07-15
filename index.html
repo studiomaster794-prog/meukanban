@@ -1554,70 +1554,70 @@
                             </div>
                         </div>
 
-                        <!-- KPI Cards -->
-                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                            <div class="glass panel-accent panel-sky rounded-3xl p-5 dashboard-card">
-                                <div class="flex justify-between items-start">
-                                    <div>
-                                        <div class="text-xs tracking-widest text-sky-300/80 font-medium">TAREFAS ATIVAS</div>
-                                        <div id="kpi-total" class="text-5xl font-semibold tabular-nums mt-2 metric-number text-sky-300">24</div>
+                        <!-- KPI Cards (compactos no mobile) -->
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 mb-5 md:mb-8">
+                            <div class="glass panel-accent panel-sky rounded-2xl p-3 sm:p-4 dashboard-card">
+                                <div class="flex justify-between items-start gap-2">
+                                    <div class="min-w-0">
+                                        <div class="text-[10px] sm:text-xs tracking-widest text-sky-300/80 font-medium leading-tight">TAREFAS ATIVAS</div>
+                                        <div id="kpi-total" class="text-3xl sm:text-4xl font-semibold tabular-nums mt-1 metric-number text-sky-300 leading-none">24</div>
                                     </div>
-                                    <i class="fa-solid fa-list-check text-4xl text-sky-400/70"></i>
+                                    <i class="fa-solid fa-list-check text-lg sm:text-xl text-sky-400/70 flex-shrink-0"></i>
                                 </div>
-                                <div class="mt-4 text-xs flex items-center text-emerald-400">
-                                    <i class="fa-solid fa-arrow-trend-up mr-1.5"></i>
+                                <div class="mt-2 text-[10px] sm:text-xs flex items-center text-emerald-400">
+                                    <i class="fa-solid fa-arrow-trend-up mr-1"></i>
                                     <span>+3 desde ontem</span>
                                 </div>
                             </div>
                             
-                            <div class="glass panel-accent panel-emerald rounded-3xl p-5 dashboard-card">
-                                <div class="flex justify-between items-start">
-                                    <div>
-                                        <div class="text-xs tracking-widest text-emerald-300/80 font-medium">CONCLUÍDAS HOJE</div>
-                                        <div id="kpi-completed" class="text-5xl font-semibold tabular-nums mt-2 metric-number text-emerald-400">9</div>
+                            <div class="glass panel-accent panel-emerald rounded-2xl p-3 sm:p-4 dashboard-card">
+                                <div class="flex justify-between items-start gap-2">
+                                    <div class="min-w-0">
+                                        <div class="text-[10px] sm:text-xs tracking-widest text-emerald-300/80 font-medium leading-tight">CONCLUÍDAS HOJE</div>
+                                        <div id="kpi-completed" class="text-3xl sm:text-4xl font-semibold tabular-nums mt-1 metric-number text-emerald-400 leading-none">9</div>
                                     </div>
-                                    <i class="fa-solid fa-check-double text-4xl text-emerald-400/70"></i>
+                                    <i class="fa-solid fa-check-double text-lg sm:text-xl text-emerald-400/70 flex-shrink-0"></i>
                                 </div>
-                                <div class="mt-4">
-                                    <div class="flex items-center justify-between text-xs">
-                                        <span class="text-emerald-200/60">Meta diária: 8</span>
-                                        <span class="font-semibold text-emerald-400">112%</span>
+                                <div class="mt-2">
+                                    <div class="flex items-center justify-between text-[10px] sm:text-xs gap-1">
+                                        <span class="text-emerald-200/60 truncate">Meta diária: 8</span>
+                                        <span class="font-semibold text-emerald-400 flex-shrink-0">112%</span>
                                     </div>
                                 </div>
                             </div>
                             
-                            <div class="glass panel-accent panel-amber rounded-3xl p-5 dashboard-card">
-                                <div class="flex justify-between items-start">
-                                    <div>
-                                        <div class="text-xs tracking-widest text-amber-300/80 font-medium">PENDENTES</div>
-                                        <div id="kpi-pending" class="text-5xl font-semibold tabular-nums mt-2 metric-number text-amber-300">15</div>
+                            <div class="glass panel-accent panel-amber rounded-2xl p-3 sm:p-4 dashboard-card">
+                                <div class="flex justify-between items-start gap-2">
+                                    <div class="min-w-0">
+                                        <div class="text-[10px] sm:text-xs tracking-widest text-amber-300/80 font-medium leading-tight">PENDENTES</div>
+                                        <div id="kpi-pending" class="text-3xl sm:text-4xl font-semibold tabular-nums mt-1 metric-number text-amber-300 leading-none">15</div>
                                     </div>
-                                    <i class="fa-solid fa-clock text-4xl text-amber-400/70"></i>
+                                    <i class="fa-solid fa-clock text-lg sm:text-xl text-amber-400/70 flex-shrink-0"></i>
                                 </div>
-                                <div class="mt-4 text-xs flex items-center gap-x-1.5">
-                                    <span class="px-2 py-px rounded-full bg-amber-400/15 text-amber-300 text-[10px] font-medium border border-amber-400/30">4 atrasadas</span>
+                                <div class="mt-2 text-[10px] sm:text-xs flex items-center">
+                                    <span class="px-1.5 py-px rounded-full bg-amber-400/15 text-amber-300 text-[10px] font-medium border border-amber-400/30">4 atrasadas</span>
                                 </div>
                             </div>
                             
-                            <div class="glass panel-accent panel-violet rounded-3xl p-5 dashboard-card">
-                                <div class="flex justify-between items-start mb-3">
-                                    <div>
-                                        <div class="text-xs tracking-widest text-violet-300/80 font-medium">TAXA DE CONCLUSÃO</div>
-                                        <div class="flex items-baseline gap-1">
-                                            <div id="kpi-rate" class="text-5xl font-semibold tabular-nums mt-1 metric-number text-violet-300">68</div>
-                                            <span class="text-sm text-violet-300/70">%</span>
+                            <div class="glass panel-accent panel-violet rounded-2xl p-3 sm:p-4 dashboard-card">
+                                <div class="flex justify-between items-start gap-2 mb-1.5">
+                                    <div class="min-w-0">
+                                        <div class="text-[10px] sm:text-xs tracking-widest text-violet-300/80 font-medium leading-tight">TAXA DE CONCLUSÃO</div>
+                                        <div class="flex items-baseline gap-0.5">
+                                            <div id="kpi-rate" class="text-3xl sm:text-4xl font-semibold tabular-nums mt-1 metric-number text-violet-300 leading-none">68</div>
+                                            <span class="text-xs text-violet-300/70">%</span>
                                         </div>
                                     </div>
-                                    <div class="text-right">
-                                        <div class="text-emerald-400 text-xs font-medium">+12%</div>
-                                        <div class="text-[10px] text-slate-500">vs semana passada</div>
+                                    <div class="text-right flex-shrink-0">
+                                        <div class="text-emerald-400 text-[10px] sm:text-xs font-medium">+12%</div>
+                                        <div class="text-[9px] sm:text-[10px] text-slate-500 leading-tight">vs semana passada</div>
                                     </div>
                                 </div>
                                 
                                 <!-- Progress Bar -->
-                                <div class="h-2 bg-slate-800/80 rounded-full overflow-hidden mt-1">
+                                <div class="h-1.5 bg-slate-800/80 rounded-full overflow-hidden mt-0.5">
                                     <div id="progress-bar" 
-                                         class="h-2 bg-gradient-to-r from-sky-400 via-indigo-500 to-violet-500 rounded-full transition-all duration-700"
+                                         class="h-1.5 bg-gradient-to-r from-sky-400 via-indigo-500 to-violet-500 rounded-full transition-all duration-700"
                                          style="width: 68%"></div>
                                 </div>
                             </div>
